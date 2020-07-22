@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="UTF-8"/>
+        <meta name ="viewport" conetent="width=device-width, initial-scale=1.0"/>
+        <title> About me-Tabs </title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <section>
+            <div class="title">
+                <h2>About</h2>
+                <p>I is short JS project to tell about me and practice JS </p>
+            </div>
+            <div class="about-center section-center">
+                <article class="about-img">
+                    <img src="./me .jpg" alt="about picture" />
+                </article>
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="btn-container">
+                        <button class="tab-btn active" data-id="about-me">About me</button>
+                        <button class="tab-btn" data-id="hobbies">Hobbies</button>
+                        <button class="tab-btn" data-id="expirience">Expirience</button>
+                    </div>
+                    <article class="about-content">
+                        <!-- single item -->
+                        <div class="content active" id="about-me">
+                            <h4> O mnie</h4>
+                            <p> Jestem młodym, pełnym zapału i ambitnym studentem Inforamtyki.
+                                Chętnie podejmuję wyzwania i robię wszystko by w życiu rozwijać pasje.
+                                Przez życię idę z pozytywnym nastawieniem kierując się mottem "Jeżeli
+                                masz z czymś problem to go rozwiąż, jeżeli natomiast nie możesz go rozwiązać
+                                to nie masz problemu."
+                            </p>
+                        </div>
+                        <div class="content" id="hobbies">
+                            <h4> Zainteresowania</h4>
+                            <p> Na codzień ćwiczę sporty w których muszę wykazać się wytwałością takie jak
+                                bieganie długo dystansowe oraz jazda na rowerze również na długie dystanse.
+                                Poza tym rozwijam moją pasję którą jest programowanie. Hoduję zwierzęta jednak
+                                nie tak zwyczajne ponieważ moim zdaniem najważniejszym aspektem w obcowaniu człowieka
+                                ze zwierzętami jest obserwowanie ich w naturalnym środowisku, dlatego hoduję owady 
+                                których nie da się oswić.
+                            </p>
+                        </div>
+                        <div class="content" id="expirience">
+                            <h4> Doświadczenie </h4>
+                            <p>
+                                Studia zacząłem od dojścia do koła naukowego CybAir w którym pomagałem w organizacji 
+                                festiwalu robotów, niestety po tym ze względu na małą ilość czasu oraz brak ciekawych projektów 
+                                w kole musiałem z niego zrezygnować. Na drugim roku przystąpiłem do programu studiów dualnych i 
+                                do końca studiów uczęszczałem na praktyki w firmie Volkswagen Poznań w semestrze jak i w wakacje.
+                                W między czasie udzielałem się w wolontariacie Faqrak po przez zbieranie pieniędzy na imprezach masowych
+                                by wspomóc oraz szerzyć informacje na temat tej organizacji. 
+                            </p>
+                        </div>
+                        <!-- end of single item -->
+                    </article>
+                </article>
+
+            </div>
+        </section>
+        <!-- JS -->
+        <script src="app.js"></script>
+    </body>
+</html>
